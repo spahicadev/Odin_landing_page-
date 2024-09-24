@@ -1,0 +1,181 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  padding: 10px 12px;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.header-logo {
+  width: 200px;
+}
+ 
+
+.img-logo {
+  width: 200px;
+}
+
+ul, li {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  text-transform: capitalize;
+}
+
+.header-menu {
+  width: 500px;
+}
+
+.hero {
+  height: 600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 55px;
+  gap: 2.6rem;
+  margin-bottom: 30px;
+}
+
+.hero-headline {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+  gap: 1rem;
+}
+
+.hero-ilustration {
+  margin: auto 0;
+}
+
+.hero-button {
+  width: 110px;
+  padding: 8px 6px;
+  border-radius: 3px;
+  border: none;
+  background-color: rgb(191, 99, 191);
+}
+
+.text-about {
+  text-align: center;
+  font-weight: 500;
+  font-size: 35px;
+}
+
+.grid-about {
+  height: 500px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.img-grid {
+  width: 310px;
+  height: 210px;
+  object-fit: contain;
+}
+
+.grid-images {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.gridItem {
+  margin: auto;
+  padding: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 8px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.qoute-modal {
+  margin-top: 120px;
+  height: 200px;
+  background-color: lightgray;
+  z-index: 1;
+  position: relative;
+}
+
+.box-qoute {
+  height: 400px;
+  width: 600px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  position: absolute;
+  top: -50%;
+  right: 30%;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(15px);
+  display: flex;
+  align-items: center;
+  padding: 12px;
+}
+
+.qoute-img {
+  width: 100px;
+  position: absolute;
+  right: 20%;
+  top: 60%;
+}
+
+.name {
+  position: absolute;
+  right: 10%;
+  top: 80%;
+}
+
+.cta-img {
+  width: 25px;
+}
+
+.CTA {
+  margin-top: 200px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-box {
+  flex-direction: column;
+  background-color: lightskyblue;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+.cta-heading {
+  text-transform: capitalize;
+  font-size: 25px;
+}
+
+.cta-paragraph {
+  padding: 9px 0px;
+}
+
+.footer {
+  background-color: lightgray;
+  height:40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
